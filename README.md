@@ -1,2 +1,3 @@
 # Website-Blog
- Ein kleiner Blog mit php, MySQL und Javascript
+Dieser Blog ist während eines Praktikums entstanden.
+Die Website lässt sich unter `nikurasu.bplaced.net` aufrufen
