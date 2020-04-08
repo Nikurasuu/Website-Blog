@@ -1,0 +1,59 @@
+body {
+    background-color: white;
+    font-family: Calibri, Arial, serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h2 {
+}
+
+p {
+
+    color: gray;
+}
+
+li {
+    list-style: none;
+}
+
+#avatar {
+    float: left;
+    margin-right: 5px;
+}
+
+#container{
+    margin-left: 5%;
+}
+
+#button {
+    color: darkblue;
+}
+
+#picture {
+
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Titel {
+    text-align: center;
+
+}
+
+
+.error{
+    color: crimson;
+}
+
+.success{
+    color: mediumseagreen;
+}
+
+.second-toolbar{
+    display: none;
+}
