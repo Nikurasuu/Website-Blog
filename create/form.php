@@ -20,7 +20,7 @@ if ($_POST !== []) {
         $preparedStatement->bindParam(':author', $username, PDO::PARAM_STR);
         $preparedStatement->execute();
         $pictureId = $connection->lastInsertId();
-        move_uploaded_file($_FILES['picture']['tmp_name'], __DIR__. '../uploadedImages/'.$pictureId );
+        move_uploaded_file($_FILES['picture']['tmp_name'], __DIR__. '/../uploadedImages/'.$pictureId );
         $success = true;
     }
 

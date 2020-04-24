@@ -24,6 +24,13 @@
 <?php include ('../templates/navigation.php')?>
 <form method="post" enctype="multipart/form-data">
 
+<div>
+        <label for="title">Bild hinzufügen:</label>
+    </div>
+    <div>
+        <input type="file" name="picture" accept="image/gif, image/jpeg, image/png">
+    </div>
+
     <div>
         <label for="title">Überschrift</label>
     </div>
