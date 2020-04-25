@@ -9,7 +9,6 @@
 </head>
 
 <body>
-    <img id="logo" src="assets/cat.jpg" alt="Logo" width="120px">
     <h1 id="Titel">Startseite</h1>
     <?php include ('templates/navigation.php')?>
     <?php include ('list.php')?>

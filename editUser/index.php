@@ -9,7 +9,6 @@
     <?php include('../templates/assets.php') ?>
 </head>
 <body>
-<img id="logo" src="/assets/cat.jpg" alt="Logo" width="120px">
 <h1 id="Titel">Nutzer bearbeiten:</h1>
 <?php include ('../templates/navigation.php')?>
 <form method="post" enctype="multipart/form-data">

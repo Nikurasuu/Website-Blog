@@ -19,7 +19,6 @@
 
 </head>
 <body>
-<img id="logo" src="../assets/cat.jpg" alt="Logo" width="120px">
 <h1 id="Titel">Neuen Eintrag erstellen:</h1>
 <?php include ('../templates/navigation.php')?>
 <form method="post" enctype="multipart/form-data">

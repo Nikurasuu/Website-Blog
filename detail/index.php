@@ -9,7 +9,6 @@
     <?php include('../templates/assets.php') ?>
 </head>
 <body>
-    <img id="logo" src="/assets/cat.jpg" alt="Logo" width="120px">
     <?php include ('../templates/navigation.php')?>
     <div id="container">
         <?php if (file_exists("../uploadedImages/".$number)):?>
