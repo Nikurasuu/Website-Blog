@@ -47,6 +47,7 @@
 
     <div>
     <?= $titleError ? '<span class="error">Kein Titel oder Text!</span>' : '' ?>
+    <?= $noPermission ? '<span class="error">Keine Berechtigung!</span>' : '' ?>
     <?= $success ? '<span class="success">Gespeichert!</span>' : '' ?>
     </div>
 

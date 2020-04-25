@@ -1,5 +1,6 @@
 <?php
 $titleError = false;
+$noPermission = false;
 $success = false;
 
 include __DIR__ . '/../vendor/autoload.php';
@@ -11,6 +12,8 @@ if ($_POST !== []) {
 
     if ($title === '' or $text === '') {
         $titleError = true;
+    } else if ($username !== 'Niklas') {
+        $noPermission = true;
     } else {
         include __DIR__ . '/../database/Db.php';
         $connection = Db::getConnection();
