@@ -12,9 +12,7 @@ if ($_POST !== []) {
 
     if ($title === '' or $text === '') {
         $titleError = true;
-    } else if ($username !== 'Niklas') {
-        $noPermission = true;
-    } else {
+    } else if ($username === 'Niklas') {
         include __DIR__ . '/../database/Db.php';
         $connection = Db::getConnection();
         $preparedStatement = $connection->prepare('INSERT INTO `entries` ( `title`, `text`, `author`) VALUES (:title, :text, :author);');
@@ -25,6 +23,8 @@ if ($_POST !== []) {
         $pictureId = $connection->lastInsertId();
         move_uploaded_file($_FILES['picture']['tmp_name'], __DIR__. '/../uploadedImages/'.$pictureId );
         $success = true;
+    } else {
+        $noPermission = true;
     }
 
 
